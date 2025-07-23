@@ -1,0 +1,1713 @@
+<?xml version="1.0"?>
+<gbXML xmlns="http://www.gbxml.org/schema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.gbxml.org/schema http://gbxml.org/schema/7-03/GreenBuildingXML_Ver7.03.xsd" temperatureUnit="C" lengthUnit="Meters" areaUnit="SquareMeters" volumeUnit="CubicMeters" useSIUnitsForResults="true" version="7.03" SurfaceReferenceLocation="Centerline">
+  <Campus id="Facility">
+    <Name>Facility</Name>
+    <Building id="sloped_roof_from_wiz_HB" buildingType="Unknown">
+      <Name>sloped_roof_from_wiz HB</Name>
+      <Area>0.000000</Area>
+      <Space id="ENEPerimSpcG.ENE1_Space" zoneIdRef="ENEPerimSpcG.ENE1" buildingStoreyIdRef="Ground_Flr_0.0">
+        <Name>ENE Perim Spc (G.ENE1)</Name>
+        <Area>326.607040</Area>
+        <Volume>995.498257</Volume>
+      </Space>
+      <Space id="UnderRoofG.3_Space" zoneIdRef="UnderRoofG.3" buildingStoreyIdRef="Ground_Flr_3.048">
+        <Name>Under Roof (G.3)</Name>
+        <Area>498.477663</Area>
+        <Volume>1255.499305</Volume>
+      </Space>
+      <Space id="WSWPerimSpcG.WSW2_Space" zoneIdRef="WSWPerimSpcG.WSW2" buildingStoreyIdRef="Ground_Flr_0.0">
+        <Name>WSW Perim Spc (G.WSW2)</Name>
+        <Area>157.006140</Area>
+        <Volume>478.554684</Volume>
+      </Space>
+      <BuildingStorey id="Ground_Flr_3.048">
+        <Name>Ground Flr_3.048</Name>
+        <Level>3.048000</Level>
+      </BuildingStorey>
+      <BuildingStorey id="Ground_Flr_0.0">
+        <Name>Ground Flr_0.0</Name>
+        <Level>0.000000</Level>
+      </BuildingStorey>
+    </Building>
+    <Surface id="ENEPerimSpcG.ENE1..Face0" constructionIdRef="Generic_Ground_Slab" exposedToSun="false" surfaceType="SlabOnGrade">
+      <Name>ENEPerimSpcG.ENE1..Face0</Name>
+      <AdjacentSpaceId spaceIdRef="ENEPerimSpcG.ENE1_Space" />
+      <RectangularGeometry>
+        <Azimuth>90</Azimuth>
+        <CartesianPoint>
+          <Coordinate>19.833217</Coordinate>
+          <Coordinate>-0.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>180</Tilt>
+        <Width>16.298847</Width>
+        <Height>20.038660</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.906000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.905999</Coordinate>
+            <Coordinate>15.849600</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>15.849599</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface id="ENEPerimSpcG.ENE1..Face1" surfaceType="ExteriorWall" constructionIdRef="Generic_Exterior_Wall" exposedToSun="true">
+      <Name>ENEPerimSpcG.ENE1..Face1</Name>
+      <AdjacentSpaceId spaceIdRef="ENEPerimSpcG.ENE1_Space" />
+      <RectangularGeometry>
+        <Azimuth>180</Azimuth>
+        <CartesianPoint>
+          <Coordinate>9.906000</Coordinate>
+          <Coordinate>-0.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>9.927217</Width>
+        <Height>3.048000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>9.906000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.906000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="ENEPerimSpcG.ENE1..Face1_Glz3" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>ENEPerimSpcG.ENE1..Face1_Glz3</Name>
+        <RectangularGeometry>
+          <Azimuth>180</Azimuth>
+          <CartesianPoint>
+            <Coordinate>15.707808</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.076200</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.676400</Width>
+          <Height>1.981200</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>14.031408</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>2.057400</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>14.031408</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>0.076200</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>15.707808</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>0.076200</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>15.707808</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>2.057400</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening id="ENEPerimSpcG.ENE1..Face1_Glz1" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>ENEPerimSpcG.ENE1..Face1_Glz1</Name>
+        <RectangularGeometry>
+          <Azimuth>180</Azimuth>
+          <CartesianPoint>
+            <Coordinate>9.949628</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.947419</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>3.667750</Width>
+          <Height>1.525015</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>9.949628</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>9.949628</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>13.617378</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>13.617378</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening id="ENEPerimSpcG.ENE1..Face1_Glz2" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>ENEPerimSpcG.ENE1..Face1_Glz2</Name>
+        <RectangularGeometry>
+          <Azimuth>180</Azimuth>
+          <CartesianPoint>
+            <Coordinate>16.121818</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.947419</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>3.667750</Width>
+          <Height>1.525015</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>16.121818</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>16.121818</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>19.789568</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>19.789568</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+    </Surface>
+    <Surface id="ENEPerimSpcG.ENE1..Face2" surfaceType="ExteriorWall" constructionIdRef="Generic_Exterior_Wall" exposedToSun="true">
+      <Name>ENEPerimSpcG.ENE1..Face2</Name>
+      <AdjacentSpaceId spaceIdRef="ENEPerimSpcG.ENE1_Space" />
+      <RectangularGeometry>
+        <Azimuth>90</Azimuth>
+        <CartesianPoint>
+          <Coordinate>19.833217</Coordinate>
+          <Coordinate>-0.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>24.384000</Width>
+        <Height>3.048000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="ENEPerimSpcG.ENE1..Face2_Glz1" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>ENEPerimSpcG.ENE1..Face2_Glz1</Name>
+        <RectangularGeometry>
+          <Azimuth>90</Azimuth>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>10.124651</Coordinate>
+            <Coordinate>0.947419</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>9.276497</Width>
+          <Height>1.525015</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>19.833217</Coordinate>
+              <Coordinate>0.848155</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>19.833217</Coordinate>
+              <Coordinate>0.848155</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>19.833217</Coordinate>
+              <Coordinate>10.124651</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>19.833217</Coordinate>
+              <Coordinate>10.124651</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening id="ENEPerimSpcG.ENE1..Face2_Glz3" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>ENEPerimSpcG.ENE1..Face2_Glz3</Name>
+        <RectangularGeometry>
+          <Azimuth>90</Azimuth>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>13.030200</Coordinate>
+            <Coordinate>0.076200</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.676400</Width>
+          <Height>1.981200</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>19.833217</Coordinate>
+              <Coordinate>11.353800</Coordinate>
+              <Coordinate>2.057400</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>19.833217</Coordinate>
+              <Coordinate>11.353800</Coordinate>
+              <Coordinate>0.076200</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>19.833217</Coordinate>
+              <Coordinate>13.030200</Coordinate>
+              <Coordinate>0.076200</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>19.833217</Coordinate>
+              <Coordinate>13.030200</Coordinate>
+              <Coordinate>2.057400</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening id="ENEPerimSpcG.ENE1..Face2_Glz2" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>ENEPerimSpcG.ENE1..Face2_Glz2</Name>
+        <RectangularGeometry>
+          <Azimuth>90</Azimuth>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>23.535863</Coordinate>
+            <Coordinate>0.947419</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>9.276497</Width>
+          <Height>1.525015</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>19.833217</Coordinate>
+              <Coordinate>14.259367</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>19.833217</Coordinate>
+              <Coordinate>14.259367</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>19.833217</Coordinate>
+              <Coordinate>23.535863</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>19.833217</Coordinate>
+              <Coordinate>23.535863</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+    </Surface>
+    <Surface id="ENEPerimSpcG.ENE1..Face3" surfaceType="ExteriorWall" constructionIdRef="Generic_Exterior_Wall" exposedToSun="true">
+      <Name>ENEPerimSpcG.ENE1..Face3</Name>
+      <AdjacentSpaceId spaceIdRef="ENEPerimSpcG.ENE1_Space" />
+      <RectangularGeometry>
+        <Azimuth>0</Azimuth>
+        <CartesianPoint>
+          <Coordinate>19.833217</Coordinate>
+          <Coordinate>24.384000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>19.833217</Width>
+        <Height>3.048000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="ENEPerimSpcG.ENE1..Face3_Glz1" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>ENEPerimSpcG.ENE1..Face3_Glz1</Name>
+        <RectangularGeometry>
+          <Azimuth>0</Azimuth>
+          <CartesianPoint>
+            <Coordinate>11.716840</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>0.947419</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>7.524750</Width>
+          <Height>1.525015</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>19.241590</Coordinate>
+              <Coordinate>24.384000</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>19.241590</Coordinate>
+              <Coordinate>24.384000</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>11.716840</Coordinate>
+              <Coordinate>24.384000</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>11.716840</Coordinate>
+              <Coordinate>24.384000</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening id="ENEPerimSpcG.ENE1..Face3_Glz3" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>ENEPerimSpcG.ENE1..Face3_Glz3</Name>
+        <RectangularGeometry>
+          <Azimuth>0</Azimuth>
+          <CartesianPoint>
+            <Coordinate>9.078408</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>0.076200</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.676400</Width>
+          <Height>1.981200</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>10.754808</Coordinate>
+              <Coordinate>24.384000</Coordinate>
+              <Coordinate>2.057400</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.754808</Coordinate>
+              <Coordinate>24.384000</Coordinate>
+              <Coordinate>0.076200</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>9.078408</Coordinate>
+              <Coordinate>24.384000</Coordinate>
+              <Coordinate>0.076200</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>9.078408</Coordinate>
+              <Coordinate>24.384000</Coordinate>
+              <Coordinate>2.057400</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening id="ENEPerimSpcG.ENE1..Face3_Glz2" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>ENEPerimSpcG.ENE1..Face3_Glz2</Name>
+        <RectangularGeometry>
+          <Azimuth>0</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.591649</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>0.947419</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>7.524750</Width>
+          <Height>1.525015</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>8.116399</Coordinate>
+              <Coordinate>24.384000</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.116399</Coordinate>
+              <Coordinate>24.384000</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.591649</Coordinate>
+              <Coordinate>24.384000</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.591649</Coordinate>
+              <Coordinate>24.384000</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+    </Surface>
+    <Surface id="ENEPerimSpcG.ENE1..Face4" surfaceType="ExteriorWall" constructionIdRef="Generic_Exterior_Wall" exposedToSun="true">
+      <Name>ENEPerimSpcG.ENE1..Face4</Name>
+      <AdjacentSpaceId spaceIdRef="ENEPerimSpcG.ENE1_Space" />
+      <RectangularGeometry>
+        <Azimuth>270</Azimuth>
+        <CartesianPoint>
+          <Coordinate>0.000000</Coordinate>
+          <Coordinate>24.384000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>8.534401</Width>
+        <Height>3.048000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>15.849599</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>15.849599</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="ENEPerimSpcG.ENE1..Face4_Glz1" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>ENEPerimSpcG.ENE1..Face4_Glz1</Name>
+        <RectangularGeometry>
+          <Azimuth>270</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>16.879928</Coordinate>
+            <Coordinate>0.947419</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>6.473739</Width>
+          <Height>1.525015</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>23.353666</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>23.353666</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>16.879928</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>16.879928</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+    </Surface>
+    <Surface id="ENEPerimSpcG.ENE1..Face5" surfaceType="InteriorWall" constructionIdRef="Generic_Interior_Wall" exposedToSun="false">
+      <Name>ENEPerimSpcG.ENE1..Face5</Name>
+      <AdjacentSpaceId spaceIdRef="ENEPerimSpcG.ENE1_Space" />
+      <AdjacentSpaceId spaceIdRef="WSWPerimSpcG.WSW2_Space" />
+      <RectangularGeometry>
+        <Azimuth>180</Azimuth>
+        <CartesianPoint>
+          <Coordinate>0.000000</Coordinate>
+          <Coordinate>15.849599</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>9.905999</Width>
+        <Height>3.048000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>15.849599</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>15.849599</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.905999</Coordinate>
+            <Coordinate>15.849600</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.905999</Coordinate>
+            <Coordinate>15.849600</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface id="ENEPerimSpcG.ENE1..Face6" surfaceType="InteriorWall" constructionIdRef="Generic_Interior_Wall" exposedToSun="false">
+      <Name>ENEPerimSpcG.ENE1..Face6</Name>
+      <AdjacentSpaceId spaceIdRef="ENEPerimSpcG.ENE1_Space" />
+      <AdjacentSpaceId spaceIdRef="WSWPerimSpcG.WSW2_Space" />
+      <RectangularGeometry>
+        <Azimuth>270</Azimuth>
+        <CartesianPoint>
+          <Coordinate>9.905999</Coordinate>
+          <Coordinate>15.849600</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>15.849600</Width>
+        <Height>3.048000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>9.905999</Coordinate>
+            <Coordinate>15.849600</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.905999</Coordinate>
+            <Coordinate>15.849600</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.906000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.906000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface id="ENEPerimSpcG.ENE1..Face7" surfaceType="Ceiling" constructionIdRef="Generic_Interior_Ceiling" exposedToSun="false">
+      <Name>ENEPerimSpcG.ENE1..Face7</Name>
+      <AdjacentSpaceId spaceIdRef="ENEPerimSpcG.ENE1_Space" />
+      <AdjacentSpaceId spaceIdRef="UnderRoofG.3_Space" />
+      <RectangularGeometry>
+        <Azimuth>90</Azimuth>
+        <CartesianPoint>
+          <Coordinate>19.833217</Coordinate>
+          <Coordinate>24.384000</Coordinate>
+          <Coordinate>3.048000</Coordinate>
+        </CartesianPoint>
+        <Tilt>0</Tilt>
+        <Width>16.298847</Width>
+        <Height>20.038660</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>15.849599</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.905999</Coordinate>
+            <Coordinate>15.849600</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.906000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface id="UnderRoofG.3..Face0_0" constructionIdRef="Generic_Ground_Slab" exposedToSun="false" surfaceType="UndergroundSlab">
+      <Name>UnderRoofG.3..Face0_0</Name>
+      <AdjacentSpaceId spaceIdRef="UnderRoofG.3_Space" />
+      <RectangularGeometry>
+        <Azimuth>90</Azimuth>
+        <CartesianPoint>
+          <Coordinate>0.000000</Coordinate>
+          <Coordinate>-0.000000</Coordinate>
+          <Coordinate>3.048000</Coordinate>
+        </CartesianPoint>
+        <Tilt>180</Tilt>
+        <Width>0.609600</Width>
+        <Height>24.383997</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-0.609600</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-0.609600</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface id="UnderRoofG.3..Face0_1" surfaceType="InteriorFloor" constructionIdRef="Generic_Interior_Floor" exposedToSun="false">
+      <Name>UnderRoofG.3..Face0_1</Name>
+      <AdjacentSpaceId spaceIdRef="UnderRoofG.3_Space" />
+      <AdjacentSpaceId spaceIdRef="WSWPerimSpcG.WSW2_Space" />
+      <RectangularGeometry>
+        <Azimuth>90</Azimuth>
+        <CartesianPoint>
+          <Coordinate>9.906000</Coordinate>
+          <Coordinate>-0.000000</Coordinate>
+          <Coordinate>3.048000</Coordinate>
+        </CartesianPoint>
+        <Tilt>180</Tilt>
+        <Width>9.906000</Width>
+        <Height>15.849600</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>9.906000</Coordinate>
+            <Coordinate>15.849600</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.906000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>15.849600</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface id="UnderRoofG.3..Face1" surfaceType="ExteriorWall" constructionIdRef="Generic_Exterior_Wall" exposedToSun="true">
+      <Name>UnderRoofG.3..Face1</Name>
+      <AdjacentSpaceId spaceIdRef="UnderRoofG.3_Space" />
+      <RectangularGeometry>
+        <Azimuth>180</Azimuth>
+        <CartesianPoint>
+          <Coordinate>-0.609600</Coordinate>
+          <Coordinate>-0.000000</Coordinate>
+          <Coordinate>3.048000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>14.650324</Width>
+        <Height>3.514411</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>-0.609600</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.322368</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.905044</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>7.951950</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface id="UnderRoofG.3..Face2" surfaceType="ExteriorWall" constructionIdRef="Generic_Exterior_Wall" exposedToSun="true">
+      <Name>UnderRoofG.3..Face2</Name>
+      <AdjacentSpaceId spaceIdRef="UnderRoofG.3_Space" />
+      <RectangularGeometry>
+        <Azimuth>90</Azimuth>
+        <CartesianPoint>
+          <Coordinate>19.833217</Coordinate>
+          <Coordinate>-0.000000</Coordinate>
+          <Coordinate>3.048000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>24.383994</Width>
+        <Height>0.274367</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.322368</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.322367</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface id="UnderRoofG.3..Face3" surfaceType="ExteriorWall" constructionIdRef="Generic_Exterior_Wall" exposedToSun="true">
+      <Name>UnderRoofG.3..Face3</Name>
+      <AdjacentSpaceId spaceIdRef="UnderRoofG.3_Space" />
+      <RectangularGeometry>
+        <Azimuth>0</Azimuth>
+        <CartesianPoint>
+          <Coordinate>19.833217</Coordinate>
+          <Coordinate>24.384000</Coordinate>
+          <Coordinate>3.048000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>14.650287</Width>
+        <Height>3.514402</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.322367</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-0.609600</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.906956</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>7.951951</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface id="UnderRoofG.3..Face5" surfaceType="Roof" constructionIdRef="Generic_Roof" exposedToSun="true">
+      <Name>UnderRoofG.3..Face5</Name>
+      <AdjacentSpaceId spaceIdRef="UnderRoofG.3_Space" />
+      <RectangularGeometry>
+        <Azimuth>90.0009</Azimuth>
+        <CartesianPoint>
+          <Coordinate>19.833217</Coordinate>
+          <Coordinate>-0.000000</Coordinate>
+          <Coordinate>3.322368</Coordinate>
+        </CartesianPoint>
+        <Tilt>25.0021</Tilt>
+        <Width>24.383231</Width>
+        <Height>10.954006</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>9.905044</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>7.951950</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.322368</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>19.833217</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.322367</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.906956</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>7.951951</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface id="UnderRoofG.3..Face6" surfaceType="Roof" constructionIdRef="Generic_Roof" exposedToSun="true">
+      <Name>UnderRoofG.3..Face6</Name>
+      <AdjacentSpaceId spaceIdRef="UnderRoofG.3_Space" />
+      <RectangularGeometry>
+        <Azimuth>270.001</Azimuth>
+        <CartesianPoint>
+          <Coordinate>-0.609600</Coordinate>
+          <Coordinate>24.384000</Coordinate>
+          <Coordinate>3.048000</Coordinate>
+        </CartesianPoint>
+        <Tilt>25.002</Tilt>
+        <Width>24.383296</Width>
+        <Height>11.603204</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>9.906956</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>7.951951</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-0.609600</Coordinate>
+            <Coordinate>24.384000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-0.609600</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.905044</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>7.951950</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface id="WSWPerimSpcG.WSW2..Face0" constructionIdRef="Generic_Ground_Slab" exposedToSun="false" surfaceType="SlabOnGrade">
+      <Name>WSWPerimSpcG.WSW2..Face0</Name>
+      <AdjacentSpaceId spaceIdRef="WSWPerimSpcG.WSW2_Space" />
+      <RectangularGeometry>
+        <Azimuth>90</Azimuth>
+        <CartesianPoint>
+          <Coordinate>9.906000</Coordinate>
+          <Coordinate>-0.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>180</Tilt>
+        <Width>9.906000</Width>
+        <Height>15.849600</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>9.906000</Coordinate>
+            <Coordinate>15.849600</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.906000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>15.849600</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+    </Surface>
+    <Surface id="WSWPerimSpcG.WSW2..Face1" surfaceType="ExteriorWall" constructionIdRef="Generic_Exterior_Wall" exposedToSun="true">
+      <Name>WSWPerimSpcG.WSW2..Face1</Name>
+      <AdjacentSpaceId spaceIdRef="WSWPerimSpcG.WSW2_Space" />
+      <RectangularGeometry>
+        <Azimuth>270</Azimuth>
+        <CartesianPoint>
+          <Coordinate>0.000000</Coordinate>
+          <Coordinate>15.849600</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>15.849600</Width>
+        <Height>3.048000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>15.849600</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>15.849600</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="WSWPerimSpcG.WSW2..Face1_Glz1" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>WSWPerimSpcG.WSW2..Face1_Glz1</Name>
+        <RectangularGeometry>
+          <Azimuth>270</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>9.493499</Coordinate>
+            <Coordinate>0.947419</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>6.006602</Width>
+          <Height>1.525015</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>15.500101</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>15.500101</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>9.493499</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>9.493499</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening id="WSWPerimSpcG.WSW2..Face1_Glz2" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>WSWPerimSpcG.WSW2..Face1_Glz2</Name>
+        <RectangularGeometry>
+          <Azimuth>270</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>0.349514</Coordinate>
+            <Coordinate>0.947419</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>6.006602</Width>
+          <Height>1.525015</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>6.356116</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>6.356116</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.349514</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>0.349514</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <Opening id="WSWPerimSpcG.WSW2..Face1_Glz3" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>WSWPerimSpcG.WSW2..Face1_Glz3</Name>
+        <RectangularGeometry>
+          <Azimuth>270</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>7.086600</Coordinate>
+            <Coordinate>0.076200</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>1.676400</Width>
+          <Height>1.981200</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>8.763000</Coordinate>
+              <Coordinate>2.057400</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>8.763000</Coordinate>
+              <Coordinate>0.076200</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>7.086600</Coordinate>
+              <Coordinate>0.076200</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>0.000000</Coordinate>
+              <Coordinate>7.086600</Coordinate>
+              <Coordinate>2.057400</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+    </Surface>
+    <Surface id="WSWPerimSpcG.WSW2..Face2" surfaceType="ExteriorWall" constructionIdRef="Generic_Exterior_Wall" exposedToSun="true">
+      <Name>WSWPerimSpcG.WSW2..Face2</Name>
+      <AdjacentSpaceId spaceIdRef="WSWPerimSpcG.WSW2_Space" />
+      <RectangularGeometry>
+        <Azimuth>180</Azimuth>
+        <CartesianPoint>
+          <Coordinate>0.000000</Coordinate>
+          <Coordinate>-0.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90</Tilt>
+        <Width>9.906000</Width>
+        <Height>3.048000</Height>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>0.000000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.906000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>9.906000</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>3.048000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="WSWPerimSpcG.WSW2..Face2_Glz1" windowTypeIdRef="Generic_Double_Pane" openingType="FixedWindow">
+        <Name>WSWPerimSpcG.WSW2..Face2_Glz1</Name>
+        <RectangularGeometry>
+          <Azimuth>180</Azimuth>
+          <CartesianPoint>
+            <Coordinate>8.715369</Coordinate>
+            <Coordinate>-0.000000</Coordinate>
+            <Coordinate>0.947419</Coordinate>
+          </CartesianPoint>
+          <Tilt>90</Tilt>
+          <Width>7.524750</Width>
+          <Height>1.525015</Height>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>1.190619</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>1.190619</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.715369</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>0.947419</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>8.715369</Coordinate>
+              <Coordinate>-0.000000</Coordinate>
+              <Coordinate>2.472434</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+    </Surface>
+  </Campus>
+  <Construction id="Generic_Exterior_Wall">
+    <Name>Generic Exterior Wall</Name>
+    <LayerId layerIdRef="Generic_Brick_Layer" />
+    <LayerId layerIdRef="Generic_LW_Concrete_Layer" />
+    <LayerId layerIdRef="Generic_50mm_Insulation_Layer" />
+    <LayerId layerIdRef="Generic_Wall_Air_Gap_Layer" />
+    <LayerId layerIdRef="Generic_Gypsum_Board_Layer" />
+  </Construction>
+  <Construction id="Generic_Interior_Door">
+    <Name>Generic Interior Door</Name>
+    <LayerId layerIdRef="Generic_25mm_Wood_Layer" />
+  </Construction>
+  <Construction id="Generic_Exposed_Floor">
+    <Name>Generic Exposed Floor</Name>
+    <LayerId layerIdRef="Generic_Painted_Metal_Layer" />
+    <LayerId layerIdRef="Generic_Ceiling_Air_Gap_Layer" />
+    <LayerId layerIdRef="Generic_50mm_Insulation_Layer" />
+    <LayerId layerIdRef="Generic_LW_Concrete_Layer" />
+  </Construction>
+  <Construction id="Generic_Underground_Wall">
+    <Name>Generic Underground Wall</Name>
+    <LayerId layerIdRef="Generic_50mm_Insulation_Layer" />
+    <LayerId layerIdRef="Generic_HW_Concrete_Layer" />
+    <LayerId layerIdRef="Generic_Wall_Air_Gap_Layer" />
+    <LayerId layerIdRef="Generic_Gypsum_Board_Layer" />
+  </Construction>
+  <Construction id="Generic_Exterior_Door">
+    <Name>Generic Exterior Door</Name>
+    <LayerId layerIdRef="Generic_Painted_Metal_Layer" />
+    <LayerId layerIdRef="Generic_25mm_Insulation_Layer" />
+    <LayerId layerIdRef="Generic_Painted_Metal_Layer" />
+  </Construction>
+  <Construction id="Generic_Interior_Wall">
+    <Name>Generic Interior Wall</Name>
+    <LayerId layerIdRef="Generic_Gypsum_Board_Layer" />
+    <LayerId layerIdRef="Generic_Wall_Air_Gap_Layer" />
+    <LayerId layerIdRef="Generic_Gypsum_Board_Layer" />
+  </Construction>
+  <Construction id="Generic_Roof">
+    <Name>Generic Roof</Name>
+    <LayerId layerIdRef="Generic_Roof_Membrane_Layer" />
+    <LayerId layerIdRef="Generic_50mm_Insulation_Layer" />
+    <LayerId layerIdRef="Generic_LW_Concrete_Layer" />
+    <LayerId layerIdRef="Generic_Ceiling_Air_Gap_Layer" />
+    <LayerId layerIdRef="Generic_Acoustic_Tile_Layer" />
+  </Construction>
+  <Construction id="Generic_Underground_Roof">
+    <Name>Generic Underground Roof</Name>
+    <LayerId layerIdRef="Generic_50mm_Insulation_Layer" />
+    <LayerId layerIdRef="Generic_HW_Concrete_Layer" />
+    <LayerId layerIdRef="Generic_Ceiling_Air_Gap_Layer" />
+    <LayerId layerIdRef="Generic_Acoustic_Tile_Layer" />
+  </Construction>
+  <Construction id="Generic_Shade">
+    <Name>Generic Shade</Name>
+    <LayerId layerIdRef="_e58b6f75-0e3e-40f9-9071-61df3b5bb235__Layer" />
+  </Construction>
+  <Construction id="Generic_Interior_Ceiling">
+    <Name>Generic Interior Ceiling</Name>
+    <LayerId layerIdRef="Generic_LW_Concrete_Layer" />
+    <LayerId layerIdRef="Generic_Ceiling_Air_Gap_Layer" />
+    <LayerId layerIdRef="Generic_Acoustic_Tile_Layer" />
+  </Construction>
+  <Construction id="Generic_Ground_Slab">
+    <Name>Generic Ground Slab</Name>
+    <LayerId layerIdRef="Generic_50mm_Insulation_Layer" />
+    <LayerId layerIdRef="Generic_HW_Concrete_Layer" />
+  </Construction>
+  <Construction id="Generic_Interior_Floor">
+    <Name>Generic Interior Floor</Name>
+    <LayerId layerIdRef="Generic_Acoustic_Tile_Layer" />
+    <LayerId layerIdRef="Generic_Ceiling_Air_Gap_Layer" />
+    <LayerId layerIdRef="Generic_LW_Concrete_Layer" />
+  </Construction>
+  <WindowType id="Generic_Double_Pane">
+    <Name>Generic Double Pane</Name>
+    <Transmittance unit="Fraction" type="Visible" surfaceType="Both">0.63532223285624001</Transmittance>
+    <U-value unit="WPerSquareMeterK">1.6877873779011601</U-value>
+    <SolarHeatGainCoeff unit="Fraction">0.42408070691772798</SolarHeatGainCoeff>
+  </WindowType>
+  <WindowType id="Generic_Single_Pane">
+    <Name>Generic Single Pane</Name>
+    <Transmittance unit="Fraction" type="Visible" surfaceType="Both">0.88</Transmittance>
+    <U-value unit="WPerSquareMeterK">5.7313730376277103</U-value>
+    <SolarHeatGainCoeff unit="Fraction">0.80094617753794595</SolarHeatGainCoeff>
+  </WindowType>
+  <WindowType id="Generic_Air_Boundary">
+    <Name>Generic Air Boundary</Name>
+  </WindowType>
+  <Layer id="Generic_25mm_Insulation_Layer">
+    <Name>Generic 25mm Insulation Layer</Name>
+    <MaterialId materialIdRef="Generic_25mm_Insulation" />
+  </Layer>
+  <Layer id="Generic_25mm_Wood_Layer">
+    <Name>Generic 25mm Wood Layer</Name>
+    <MaterialId materialIdRef="Generic_25mm_Wood" />
+  </Layer>
+  <Layer id="Generic_50mm_Insulation_Layer">
+    <Name>Generic 50mm Insulation Layer</Name>
+    <MaterialId materialIdRef="Generic_50mm_Insulation" />
+  </Layer>
+  <Layer id="Generic_Acoustic_Tile_Layer">
+    <Name>Generic Acoustic Tile Layer</Name>
+    <MaterialId materialIdRef="Generic_Acoustic_Tile" />
+  </Layer>
+  <Layer id="Generic_Brick_Layer">
+    <Name>Generic Brick Layer</Name>
+    <MaterialId materialIdRef="Generic_Brick" />
+  </Layer>
+  <Layer id="Generic_Ceiling_Air_Gap_Layer">
+    <Name>Generic Ceiling Air Gap Layer</Name>
+    <MaterialId materialIdRef="Generic_Ceiling_Air_Gap" />
+  </Layer>
+  <Layer id="Generic_Gypsum_Board_Layer">
+    <Name>Generic Gypsum Board Layer</Name>
+    <MaterialId materialIdRef="Generic_Gypsum_Board" />
+  </Layer>
+  <Layer id="Generic_HW_Concrete_Layer">
+    <Name>Generic HW Concrete Layer</Name>
+    <MaterialId materialIdRef="Generic_HW_Concrete" />
+  </Layer>
+  <Layer id="Generic_LW_Concrete_Layer">
+    <Name>Generic LW Concrete Layer</Name>
+    <MaterialId materialIdRef="Generic_LW_Concrete" />
+  </Layer>
+  <Layer id="Generic_Painted_Metal_Layer">
+    <Name>Generic Painted Metal Layer</Name>
+    <MaterialId materialIdRef="Generic_Painted_Metal" />
+  </Layer>
+  <Layer id="Generic_Roof_Membrane_Layer">
+    <Name>Generic Roof Membrane Layer</Name>
+    <MaterialId materialIdRef="Generic_Roof_Membrane" />
+  </Layer>
+  <Layer id="Generic_Wall_Air_Gap_Layer">
+    <Name>Generic Wall Air Gap Layer</Name>
+    <MaterialId materialIdRef="Generic_Wall_Air_Gap" />
+  </Layer>
+  <Layer id="_e58b6f75-0e3e-40f9-9071-61df3b5bb235__Layer">
+    <Name>{e58b6f75-0e3e-40f9-9071-61df3b5bb235} Layer</Name>
+    <MaterialId materialIdRef="_e58b6f75-0e3e-40f9-9071-61df3b5bb235_" />
+  </Layer>
+  <Material id="Generic_25mm_Insulation">
+    <Name>Generic 25mm Insulation</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Roughness value="MediumRough" />
+    <Thickness unit="Meters">0.025000000000000001</Thickness>
+    <Conductivity unit="WPerMeterK">0.029999999999999999</Conductivity>
+    <Density unit="KgPerCubicM">43</Density>
+    <SpecificHeat unit="JPerKgK">1210</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.69999999999999996</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.69999999999999996</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.69999999999999996</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.69999999999999996</Absorptance>
+  </Material>
+  <Material id="Generic_25mm_Wood">
+    <Name>Generic 25mm Wood</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.5</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.5</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.5</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.5</Reflectance>
+    <Roughness value="MediumSmooth" />
+    <Thickness unit="Meters">0.025399999999999999</Thickness>
+    <Conductivity unit="WPerMeterK">0.14999999999999999</Conductivity>
+    <Density unit="KgPerCubicM">608</Density>
+    <SpecificHeat unit="JPerKgK">1630</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.5</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.5</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.5</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.5</Absorptance>
+  </Material>
+  <Material id="Generic_50mm_Insulation">
+    <Name>Generic 50mm Insulation</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Roughness value="MediumRough" />
+    <Thickness unit="Meters">0.050000000000000003</Thickness>
+    <Conductivity unit="WPerMeterK">0.029999999999999999</Conductivity>
+    <Density unit="KgPerCubicM">43</Density>
+    <SpecificHeat unit="JPerKgK">1210</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.69999999999999996</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.69999999999999996</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.69999999999999996</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.69999999999999996</Absorptance>
+  </Material>
+  <Material id="Generic_Acoustic_Tile">
+    <Name>Generic Acoustic Tile</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.80000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.80000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.80000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.80000000000000004</Reflectance>
+    <Roughness value="MediumSmooth" />
+    <Thickness unit="Meters">0.02</Thickness>
+    <Conductivity unit="WPerMeterK">0.059999999999999998</Conductivity>
+    <Density unit="KgPerCubicM">368</Density>
+    <SpecificHeat unit="JPerKgK">590</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.20000000000000001</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.20000000000000001</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.20000000000000001</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.20000000000000001</Absorptance>
+  </Material>
+  <Material id="Generic_Brick">
+    <Name>Generic Brick</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.34999999999999998</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.34999999999999998</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.34999999999999998</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.34999999999999998</Reflectance>
+    <Roughness value="MediumRough" />
+    <Thickness unit="Meters">0.10000000000000001</Thickness>
+    <Conductivity unit="WPerMeterK">0.90000000000000002</Conductivity>
+    <Density unit="KgPerCubicM">1920</Density>
+    <SpecificHeat unit="JPerKgK">790</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.65000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.65000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.65000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.65000000000000002</Absorptance>
+  </Material>
+  <Material id="Generic_Ceiling_Air_Gap">
+    <Name>Generic Ceiling Air Gap</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Roughness value="Smooth" />
+    <Thickness unit="Meters">0.10000000000000001</Thickness>
+    <Conductivity unit="WPerMeterK">0.55600000000000005</Conductivity>
+    <Density unit="KgPerCubicM">1.28</Density>
+    <SpecificHeat unit="JPerKgK">1000</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.69999999999999996</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.69999999999999996</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.69999999999999996</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.69999999999999996</Absorptance>
+  </Material>
+  <Material id="Generic_Gypsum_Board">
+    <Name>Generic Gypsum Board</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.5</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.5</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.5</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.5</Reflectance>
+    <Roughness value="MediumSmooth" />
+    <Thickness unit="Meters">0.012699999999999999</Thickness>
+    <Conductivity unit="WPerMeterK">0.16</Conductivity>
+    <Density unit="KgPerCubicM">800</Density>
+    <SpecificHeat unit="JPerKgK">1090</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.5</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.5</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.5</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.5</Absorptance>
+  </Material>
+  <Material id="Generic_HW_Concrete">
+    <Name>Generic HW Concrete</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.19999999999999996</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.19999999999999996</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.19999999999999996</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.19999999999999996</Reflectance>
+    <Roughness value="MediumRough" />
+    <Thickness unit="Meters">0.20000000000000001</Thickness>
+    <Conductivity unit="WPerMeterK">1.95</Conductivity>
+    <Density unit="KgPerCubicM">2240</Density>
+    <SpecificHeat unit="JPerKgK">900</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.80000000000000004</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.80000000000000004</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.80000000000000004</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.80000000000000004</Absorptance>
+  </Material>
+  <Material id="Generic_LW_Concrete">
+    <Name>Generic LW Concrete</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.19999999999999996</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.19999999999999996</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.19999999999999996</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.19999999999999996</Reflectance>
+    <Roughness value="MediumRough" />
+    <Thickness unit="Meters">0.10000000000000001</Thickness>
+    <Conductivity unit="WPerMeterK">0.53000000000000003</Conductivity>
+    <Density unit="KgPerCubicM">1280</Density>
+    <SpecificHeat unit="JPerKgK">840</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.80000000000000004</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.80000000000000004</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.80000000000000004</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.80000000000000004</Absorptance>
+  </Material>
+  <Material id="Generic_Painted_Metal">
+    <Name>Generic Painted Metal</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.5</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.5</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.5</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.5</Reflectance>
+    <Roughness value="Smooth" />
+    <Thickness unit="Meters">0.0015</Thickness>
+    <Conductivity unit="WPerMeterK">45</Conductivity>
+    <Density unit="KgPerCubicM">7690</Density>
+    <SpecificHeat unit="JPerKgK">410</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.5</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.5</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.5</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.5</Absorptance>
+  </Material>
+  <Material id="Generic_Roof_Membrane">
+    <Name>Generic Roof Membrane</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.34999999999999998</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.34999999999999998</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.34999999999999998</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.34999999999999998</Reflectance>
+    <Roughness value="MediumRough" />
+    <Thickness unit="Meters">0.01</Thickness>
+    <Conductivity unit="WPerMeterK">0.16</Conductivity>
+    <Density unit="KgPerCubicM">1120</Density>
+    <SpecificHeat unit="JPerKgK">1460</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.65000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.65000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.65000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.65000000000000002</Absorptance>
+  </Material>
+  <Material id="Generic_Wall_Air_Gap">
+    <Name>Generic Wall Air Gap</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.30000000000000004</Reflectance>
+    <Roughness value="Smooth" />
+    <Thickness unit="Meters">0.10000000000000001</Thickness>
+    <Conductivity unit="WPerMeterK">0.66700000000000004</Conductivity>
+    <Density unit="KgPerCubicM">1.28</Density>
+    <SpecificHeat unit="JPerKgK">1000</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.69999999999999996</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.69999999999999996</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.69999999999999996</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.69999999999999996</Absorptance>
+  </Material>
+  <Material id="_e58b6f75-0e3e-40f9-9071-61df3b5bb235_">
+    <Name>{e58b6f75-0e3e-40f9-9071-61df3b5bb235}</Name>
+    <Reflectance unit="Fraction" type="ExtIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="IntIR" surfaceType="Both">0.099999999999999978</Reflectance>
+    <Reflectance unit="Fraction" type="ExtSolar" surfaceType="Both">0.34999999999999998</Reflectance>
+    <Reflectance unit="Fraction" type="IntSolar" surfaceType="Both">0.34999999999999998</Reflectance>
+    <Reflectance unit="Fraction" type="ExtVisible" surfaceType="Both">0.34999999999999998</Reflectance>
+    <Reflectance unit="Fraction" type="IntVisible" surfaceType="Both">0.34999999999999998</Reflectance>
+    <Roughness value="Smooth" />
+    <Thickness unit="Meters">0.10000000000000001</Thickness>
+    <Conductivity unit="WPerMeterK">0.10000000000000001</Conductivity>
+    <Density unit="KgPerCubicM">0.10000000000000001</Density>
+    <SpecificHeat unit="JPerKgK">1400</SpecificHeat>
+    <Absorptance unit="Fraction" type="ExtIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntIR">0.90000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtSolar">0.65000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntSolar">0.65000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="ExtVisible">0.65000000000000002</Absorptance>
+    <Absorptance unit="Fraction" type="IntVisible">0.65000000000000002</Absorptance>
+  </Material>
+  <Zone id="WSWPerimSpcG.WSW2">
+    <Name>WSWPerimSpcG.WSW2</Name>
+  </Zone>
+  <Zone id="ENEPerimSpcG.ENE1">
+    <Name>ENEPerimSpcG.ENE1</Name>
+  </Zone>
+  <Zone id="UnderRoofG.3">
+    <Name>UnderRoofG.3</Name>
+  </Zone>
+  <DocumentHistory>
+    <CreatedBy programId="openstudio" date="2025-07-23T11:09:18-07:00" personId="unknown" />
+    <ProgramInfo id="openstudio">
+      <ProductName>OpenStudio</ProductName>
+      <Version>3.9.0</Version>
+      <Platform>Windows</Platform>
+    </ProgramInfo>
+    <PersonInfo id="unknown">
+      <FirstName>Unknown</FirstName>
+      <LastName>Unknown</LastName>
+    </PersonInfo>
+  </DocumentHistory>
+</gbXML>
